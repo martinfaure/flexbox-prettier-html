@@ -2,73 +2,85 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
 }
 
-main {
-	background-color: rgb(245, 192, 255);
-	width: 1980px;
-	height: 1000px;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+body{
+	background-color: palevioletred;
 }
 
-.bodybox {
+main{
 	position: relative;
-	box-sizing: border-box;
 	width: 1229px;
 	height: 543px;
 	background: #131313;
 	border-radius: 24px;
-	left: 10%;
-	top: 15%;
+	display: flex;
+	justify-content: flex-end;
+	left: 15%;
+	top: 200px;
 }
 
-h1 {
-	color: white;
-	width: 606px;
-	height: 38px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 29px;
-	padding: 30px;
+.bodybox1{
+	display: flex;
+	flex-direction: column;
 }
 
-.box2 {
+
+.title{
 	position: relative;
 	color: white;
-	padding: 35px;
-	margin: 30px;
+	justify-content: flex-start; 
+	align-items: flex-start; 
+	padding: 30px;
+	top: 2%;
+	font-size: 24px;
+}
+.box1{
+	background-color: rgb(41, 41, 41);
 	width: 591px;
 	height: 374px;
-	background-color: rgb(53, 53, 53);
-	border-radius: 24px;
-	bottom: 55%;
-	border-left: solid rgb(255, 79, 187) 10px;
-}
-
-.video {
-	position: relative;
+	border-radius: 12px;
+    margin: 30px;
+	padding: 30px;
+	color: white;
 	display: flex;
-	flex-direction: row;
-	border-radius: 12px;
-	left: 700px;
+	border-left: solid #EA00FF 10px ;
+	font-size: 21px;
 }
 
-.home {
-	position: relative;
-	left: 62%;
-	top: 50%;
-	width: 115px;
-	height: 35px;
-	border-radius: 99px;
-	background-color: #153d1d;
-	border: none;
-	border-radius: 12px;
-	color: #3ab350;
-	border-color: solid #3ab350 2px;
+.tldr{
+	color:#EA00FF;
+	font-weight: bolder;
 }
 
-span {
-	color: rgb(255, 79, 187);
-	font-weight: 700px;
+
+.video{
+margin: 30px;
+border-radius: 12px;
+}
+
+.boutons{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.boutons .html{
+	color: rgb(63, 212, 63) ;
+	background-color: rgb(15, 56, 15);
+	border: solid rgb(63, 212, 63) 2px;
+	border-radius: 100px;
+}
+.boutons .css{
+	color: rgb(63, 212, 63) ;
+	background-color: rgb(15, 56, 15);
+	border: solid rgb(63, 212, 63) 2px;
+	border-radius: 100px;
+}
+.boutons .js{
+	color: rgb(63, 212, 63) ;
+	background-color: rgb(15, 56, 15);
+	border: solid rgb(63, 212, 63) 2px;
+	border-radius: 100px;
 }
